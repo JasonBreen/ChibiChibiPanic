@@ -1,11 +1,11 @@
 using System;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI;
+//change GUITexture to Image
+[RequireComponent(typeof(Image))]
 
-#pragma warning disable 618
-[RequireComponent(typeof (Image))]
 public class ForcedReset : MonoBehaviour
 {
     private void Update()
